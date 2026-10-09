@@ -1,0 +1,718 @@
+{
+  "name": "Grunderwerbsteuer und Wohneigentumsförderung der deutschen Bundesländer",
+  "beschreibung": "Grunderwerbsteuersätze mit Gültigkeitsdatum sowie die Wohneigentums-Förderprogramme der 16 Landesförderinstitute, je Programm mit Zielgruppe, Konditionen und Konditionsstand.",
+  "herausgeber": "Hypolotse",
+  "geprueft_von": "Max Hasenohr",
+  "stand": "10. August 2026",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "quelle": "https://hypolotse.de/daten/foerderung/",
+  "bedingung": "Nutzung frei bei Namensnennung „Hypolotse“ und Link auf https://hypolotse.de/daten/foerderung/",
+  "aenderungen": [
+    {
+      "datum": "2026-08-13",
+      "titel": "Erstveröffentlichung des Datensatzes",
+      "beschreibung": "16 Bundesländer, Grunderwerbsteuersätze mit Gültigkeitsdatum, Landesförderprogramme mit Konditionsstand."
+    },
+    {
+      "datum": "2026-08-03",
+      "titel": "KfW 308 „Jung kauft Alt“",
+      "beschreibung": "Neue Kredithöchstbeträge in Kraft. Betrifft alle Länderseiten im Abschnitt Bundesförderung."
+    },
+    {
+      "datum": "2026-07-21",
+      "titel": "KfW 458 Heizungsförderung",
+      "beschreibung": "Geänderte Fördersätze in Kraft."
+    }
+  ],
+  "bundeslaender": [
+    {
+      "kuerzel": "BW",
+      "land": "Baden-Württemberg",
+      "grunderwerbsteuer_prozent": 5.0,
+      "grunderwerbsteuer_gueltig_seit": "5. November 2011",
+      "beispiel_400000_eur": 20000,
+      "foerderinstitut": "L-Bank (Staatsbank für Baden-Württemberg)",
+      "foerderinstitut_url": "https://www.l-bank.de",
+      "antragsweg": "Der Antrag läuft nicht über die Hausbank, sondern über die Wohnraumförderungsstelle deiner Gemeinde — seit Dezember 2025 auch volldigital über das Onlineportal des Landes.",
+      "kombination_bundesfoerderung": "Die Kombination mit KfW-Programmen und L-Bank-Ergänzungsdarlehen ist ausdrücklich möglich; die Kombination mehrerer Landesprogramme untereinander ist ausgeschlossen.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Z15-Darlehen (Eigentumsfinanzierung BW)",
+          "zielgruppe": "Familien mit mind. einem minderjährigen Kind (oder Kind wird binnen 6 Monaten erwartet) oder Haushalte mit schwerbehinderter Person; Einkommensgrenzen nach Landeswohnraumförderungsprogramm",
+          "konditionen": "Zinsverbilligtes Darlehen, z. B. bis ~344.500 € für einen 4-Personen-Haushalt, +10.000 € je weiteres Kind. Zins auf 1,00 % p. a. verbilligt für 15 Jahre, Tilgung 2,25 %, keine Bearbeitungsgebühren",
+          "konditionsstand": "01/2026"
+        },
+        {
+          "name": "Bauen und Kaufen mit Familienzuwachs",
+          "zielgruppe": "Personen unter 45 mit Kinderwunsch (auch noch kinderlos) oder Familien über den Z15-Einkommensgrenzen",
+          "konditionen": "Darlehen bis ~239.500 € (Paare) bzw. ~344.500 € (Familie mit zwei Kindern); Zinsverbilligung 0,90 Prozentpunkte je erstem und zweitem Kind (max. 1,80 Pp., Untergrenze 0 %), 15 Jahre Zinsbindung",
+          "konditionsstand": "06/2026"
+        },
+        {
+          "name": "Zusatzförderung (nur mit Z15 kombinierbar)",
+          "zielgruppe": "Z15-Empfänger bei Neubau oder Ersterwerb",
+          "konditionen": "Energiesparhaus: +50.000 € Darlehen plus 4.000 € Tilgungszuschuss; Barrierefreiheit nach DIN 18040-2: bis 60.000 € Darlehenserhöhung; Innovation: bis +25 % der Basisförderung",
+          "konditionsstand": "01/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "L-Bank — Z15-Darlehen",
+          "url": "https://www.l-bank.de/produkte/wohnimmobilien/eigentumsfinanzierung-bw-z-15-darlehen.html"
+        },
+        {
+          "titel": "L-Bank — Finanzierung Familienzuwachs",
+          "url": "https://www.l-bank.de/produkte/wohnimmobilien/finanzierung-familienzuwachs.html"
+        },
+        {
+          "titel": "Finanzämter Baden-Württemberg — Grunderwerbsteuer",
+          "url": "https://finanzamt-bw.fv-bwl.de/"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/baden-wuerttemberg"
+    },
+    {
+      "kuerzel": "BY",
+      "land": "Bayern",
+      "grunderwerbsteuer_prozent": 3.5,
+      "grunderwerbsteuer_gueltig_seit": "jeher unverändert — Bayern hat als einziges Land nie erhöht",
+      "beispiel_400000_eur": 14000,
+      "foerderinstitut": "BayernLabo (Bayerische Landesbodenkreditanstalt)",
+      "foerderinstitut_url": "https://bayernlabo.de",
+      "antragsweg": "Der Antrag läuft über die Bewilligungsstelle am Landratsamt bzw. bei der kreisfreien Stadt — zwingend vor Kaufvertrag oder Baubeginn. Einen schnellen Eignungscheck bietet der Mini-Förderlotse der BayernLabo.",
+      "kombination_bundesfoerderung": "Die Kombination mit KfW-Programmen ist ausdrücklich vorgesehen — unter anderem KfW 124 (bis 100.000 €) und KfW 297/298.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Bayerisches Wohnungsbauprogramm (Eigenwohnraum)",
+          "zielgruppe": "Haushalte mit niedrigem bis durchschnittlichem Einkommen (Grenzen nach Art. 11 BayWoFG)",
+          "konditionen": "Staatsdarlehen bis 30 % der Kosten (Neubau/Ersterwerb) bzw. 40 % (Zweiterwerb), mind. 15.000 €; Zins 0,5 % p. a. für 15 Jahre (danach gedeckelt bei 7 %); einmaliger Zuschuss 7.500 € je Kind",
+          "konditionsstand": "12/2025"
+        },
+        {
+          "name": "Bayerisches Zinsverbilligungsprogramm (BayernLabo)",
+          "zielgruppe": "Haushalte bis Einkommensstufe III — die Grenzen wurden 2023 um rund 25 % angehoben, damit sind etwa 60 % der bayerischen Bevölkerung antragsberechtigt",
+          "konditionen": "Zinsverbilligtes Kapitalmarktdarlehen bis zu einem Drittel der Gesamtkosten, Zinsverbilligung wahlweise 10 oder 15 Jahre, Tilgung 2,0 %; zusätzlich 5.000 € Zuschuss je Kind",
+          "konditionsstand": "04/2026"
+        },
+        {
+          "name": "Eigenheimzulage & Baukindergeld Plus",
+          "zielgruppe": "—",
+          "konditionen": "Ausgelaufen. Beide Zuschussprogramme (10.000 € Eigenheimzulage, Baukindergeld Plus) nehmen keine Neuanträge mehr an",
+          "konditionsstand": "ausgelaufen"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Bayerisches Landesamt für Steuern — FAQ Grunderwerbsteuer",
+          "url": "https://www.lfst.bayern.de/steuerinfos/haeufig-gestellte-fragen/grunderwerbsteuer"
+        },
+        {
+          "titel": "StMB Bayern — Förderung von Wohneigentum",
+          "url": "https://www.stmb.bayern.de/wohnen/foerderung/wohneigentum/index.php"
+        },
+        {
+          "titel": "Förderdatenbank des Bundes — Bayerisches Wohnungsbauprogramm",
+          "url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Bayern/bayerisches-wohnungsbauprogramm-eigenwohnraum.html"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/bayern"
+    },
+    {
+      "kuerzel": "BE",
+      "land": "Berlin",
+      "grunderwerbsteuer_prozent": 6.0,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2014",
+      "beispiel_400000_eur": 24000,
+      "foerderinstitut": "Investitionsbank Berlin (IBB)",
+      "foerderinstitut_url": "https://www.ibb.de",
+      "antragsweg": "Anträge laufen direkt über das IBB-Kundenportal — kein Hausbankprinzip.",
+      "kombination_bundesfoerderung": "Die IBB leitet die KfW-Programme durch (u. a. KfW 124 bis 100.000 €, KfW 297/298 bis 150.000 € je Wohneinheit) — für Berliner Eigennutzer ist das der Hauptweg zur Förderung.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "IBB Förderergänzungsdarlehen",
+          "zielgruppe": "Selbstnutzer ohne Einkommensgrenzen; mind. 7,5 % Eigenkapital",
+          "konditionen": "Ergänzungsdarlehen bis zur Vollfinanzierung des restlichen Bedarfs, Konditionen tagesaktuell; kombinierbar mit KfW 124 und KfW 297/298",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "IBB Genossenschaftsförderung (Anteilserwerb)",
+          "zielgruppe": "Haushalte mit Hauptwohnsitz Berlin und Wohnberechtigungsschein (Einkommensgrenze darf um bis zu 120 % überschritten werden)",
+          "konditionen": "Zinsloses Darlehen 2.000–50.000 € für den erstmaligen Erwerb von Genossenschaftsanteilen, bis 30 Jahre Laufzeit; Tilgungsverzicht 15 % bei Auszahlung plus 10 % gegen Laufzeitende",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "IBB Wohnraum Modernisieren",
+          "zielgruppe": "Bestandserwerber mit Modernisierungsbedarf",
+          "konditionen": "Bis 100.000 € je Wohneinheit",
+          "konditionsstand": "08/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Senatsverwaltung für Finanzen — FAQ Grunderwerbsteuer",
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.9062.php"
+        },
+        {
+          "titel": "IBB — Förderergänzungsdarlehen",
+          "url": "https://www.ibb.de/de/foerderprogramme/ibb-foerderergaenzungsdarlehen.html"
+        },
+        {
+          "titel": "IBB — Genossenschaftsförderung Anteilserwerb",
+          "url": "https://www.ibb.de/de/foerderprogramme/ibb-genossenschaftsfoerderung-anteilserwerb.html"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/berlin"
+    },
+    {
+      "kuerzel": "BB",
+      "land": "Brandenburg",
+      "grunderwerbsteuer_prozent": 6.5,
+      "grunderwerbsteuer_gueltig_seit": "1. Juli 2015",
+      "beispiel_400000_eur": 26000,
+      "foerderinstitut": "Investitionsbank des Landes Brandenburg (ILB)",
+      "foerderinstitut_url": "https://www.ilb.de",
+      "antragsweg": "Antragstellung direkt bei der ILB als Bewilligungsstelle — nicht über die Hausbank, und wie immer vor Vorhabensbeginn.",
+      "kombination_bundesfoerderung": "Eine 6,5-Prozent-Grunderwerbsteuer plus das stärkste zinsfreie Landesdarlehen im Flächenvergleich: Für Haushalte in der Gebietskulisse kompensiert die Förderung die Steuer um ein Mehrfaches. Die Kombinierbarkeit mit KfW ist in der Richtlinie nicht explizit geregelt — im Einzelfall bei der ILB klären.",
+      "warnung": "Die Förderung ist an eine Gebietskulisse gebunden: Schwerpunkt sind Innenstädte (förmlich festgelegte Sanierungs- und Entwicklungsgebiete sowie definierte Vorranggebiete). Außerhalb ist die Förderung nur begrenzt möglich — vor der Objektsuche bei der ILB prüfen, ob die Adresse in der Kulisse liegt.",
+      "programme": [
+        {
+          "name": "Wohneigentumsförderung Brandenburg 2026 (WohneigentumförderR, gültig 2026–2028)",
+          "zielgruppe": "Selbstnutzer bei Neubau, Ersterwerb und Bestandserwerb mit Modernisierung; Einkommensgrenzen nach § 22 BbgWoFG, Überschreitung um bis zu 100 % zulässig (befristet bis Ende 2027)",
+          "konditionen": "Zinsfreies Baudarlehen bis 230.000 € — 20 Jahre zinsfrei, Tilgung mind. 3 %; Grundzuschuss 10.000 €, weitere 10.000 € bei geringem Einkommen; je Kind zusätzlich 5.000 € Darlehen und 10.000 € Zuschuss; bei Bestandserwerb mit Modernisierung +20.000 € Darlehen",
+          "konditionsstand": "02/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Finanzämter Brandenburg — Grunderwerbsteuer",
+          "url": "https://finanzamt.brandenburg.de/fa/de/steuern/steuerinformationen/grunderwerbsteuer/"
+        },
+        {
+          "titel": "ILB — Wohneigentumsförderung 2026",
+          "url": "https://www.ilb.de/de/wohneigentumsfoerderung-2026/"
+        },
+        {
+          "titel": "Richtlinie WohneigentumförderR (PDF)",
+          "url": "https://www.ilb.de/media/de/pdf/richtlinie_16320.pdf"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/brandenburg"
+    },
+    {
+      "kuerzel": "HB",
+      "land": "Bremen",
+      "grunderwerbsteuer_prozent": 5.5,
+      "grunderwerbsteuer_gueltig_seit": "1. Juli 2025 (vorher 5,0 % seit 2014)",
+      "beispiel_400000_eur": 22000,
+      "foerderinstitut": "BAB — Bremer Aufbau-Bank",
+      "foerderinstitut_url": "https://www.bab-bremen.de",
+      "antragsweg": "Zweistufig direkt bei der BAB: erst Reservierung (vor dem Kaufvertrag!), dann Antrag. Der „Bremer Förderlotse“ der BAB ist die zentrale Beratungsstelle.",
+      "kombination_bundesfoerderung": "Als Zuschuss ist der Eigenheimzuschuss frei mit KfW 300 „Wohneigentum für Familien“ und KfW 308 „Jung kauft Alt“ kombinierbar. Ein landeseigenes Kaufdarlehen gibt es nicht — das Wohnraumförderungsprogramm des Landes fließt in den Mietwohnungsbau.",
+      "warnung": "Der Eigenheimzuschuss wurde Anfang 2026 zuletzt als ausgeschöpft gemeldet. Da die Vergabe nach Antragsreihenfolge läuft und eine Reservierung vor dem notariellen Kaufvertrag nötig ist: unbedingt zuerst bei der BAB den aktuellen Topfstand erfragen, dann erst den Notartermin machen.",
+      "programme": [
+        {
+          "name": "Eigenheimzuschuss",
+          "zielgruppe": "Familien (auch Alleinerziehende/Patchwork) mit mind. einem minderjährigen Kind oder ab der 13. Schwangerschaftswoche; Ersterwerb zur Selbstnutzung in der Stadtgemeinde Bremen",
+          "konditionen": "Einmaliger Zuschuss 15.000 €, nicht rückzahlbar; Kaufpreisgrenzen ~360.000 € (Neubau/Ersterwerb) bzw. ~260.000 € (Bestand), ohne Nebenkosten; Vergabe nach Antragsreihenfolge",
+          "konditionsstand": "siehe Warnung"
+        },
+        {
+          "name": "Kredite „Rund ums Haus“",
+          "zielgruppe": "Eigentümer selbstgenutzter Immobilien und WEG",
+          "konditionen": "Darlehen bis 50.000 € für Modernisierung (Energieeffizienz, Barriereabbau, Einbruchschutz)",
+          "konditionsstand": "08/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Serviceportal Bremen — Grunderwerbsteuer",
+          "url": "https://www.service.bremen.de/"
+        },
+        {
+          "titel": "BAB — Eigenheimzuschuss",
+          "url": "https://www.bab-bremen.de/de/page/programm/eigenheimzuschuss"
+        },
+        {
+          "titel": "Senatspressestelle — Erhöhung zum 01.07.2025",
+          "url": "https://www.senatspressestelle.bremen.de/pressemitteilungen/senat-bringt-moderate-erhoehung-der-grunderwerbsteuer-auf-den-weg-458299"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/bremen"
+    },
+    {
+      "kuerzel": "HH",
+      "land": "Hamburg",
+      "grunderwerbsteuer_prozent": 5.5,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2023 (vorher 4,5 % seit 2009)",
+      "beispiel_400000_eur": 22000,
+      "foerderinstitut": "IFB Hamburg (Hamburgische Investitions- und Förderbank)",
+      "foerderinstitut_url": "https://www.ifbhh.de",
+      "antragsweg": "Hamburg fährt das Hausbankprinzip: Der Antrag läuft über ein mit der IFB kooperierendes Kreditinstitut, vor Vorhabensbeginn bzw. unmittelbar nach dem notariellen Kaufvertrag.",
+      "kombination_bundesfoerderung": "IFB-Darlehen laufen im Nachrang zum Bankdarlehen — das senkt den erstrangigen Beleihungsauslauf und damit oft den Zins des Hauptdarlehens. Wichtig: IFB- und KfW-Mittel zusammen sind auf 150.000 € gedeckelt.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "IFB-Eigenheimdarlehen (Neubau/Ersterwerb)",
+          "zielgruppe": "Selbstnutzer in Hamburg; zu versteuerndes Einkommen max. 75.000 € (1 Person) / 100.000 € (2 Personen), +20.000 € je Kind unter 18",
+          "konditionen": "Nachrangdarlehen bis 150.000 € zu 2,0 % Zins, 15 Jahre Zinsbindung; Grundstücks- und Erwerbsnebenkosten förderfähig",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "IFB-Eigenheimdarlehen Gebrauchtimmobilie",
+          "zielgruppe": "Wie oben, zusätzlich mind. ein minderjähriges Kind",
+          "konditionen": "Darlehen bis 150.000–180.000 €, 2,0 %, 15 Jahre; für Bestand der Energieklassen D–H mit Pflicht zur Sanierung auf mind. Klasse C — Kaufpreis, Nebenkosten und Sanierungskosten sind förderfähig",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "Eigenheimförderung für große Familien",
+          "zielgruppe": "Familien mit 3+ Kindern oder Haushalte mit Schwerbehinderung (GdB mind. 80); Einkommensgrenzen dürfen um bis zu 100 % überschritten werden",
+          "konditionen": "Zinsverbilligtes Darlehen, 15 Jahre Zinsfestschreibung, Zuschläge bei energiesparender Bauweise; Neubau/Erstbezug, Eigenleistung 10–20 %",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "IFB-Ergänzungsdarlehen",
+          "zielgruppe": "Selbstnutzer in Hamburg, ohne Einkommensgrenzen",
+          "konditionen": "Bis 100.000 €, kapitalmarktnaher Zins, 10 oder 15 Jahre Zinsbindung",
+          "konditionsstand": "08/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Finanzbehörde Hamburg — Grunderwerbsteuer",
+          "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde"
+        },
+        {
+          "titel": "IFB Hamburg — Eigenheimdarlehen",
+          "url": "https://www.ifbhh.de/foerderprogramm/ifb-eigenheimdarlehen"
+        },
+        {
+          "titel": "IFB Hamburg — Eigenheimdarlehen Gebrauchtimmobilie",
+          "url": "https://www.ifbhh.de/foerderprogramm/ifb-eigenheimdarlehen-gebrauchtimmobilie"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/hamburg"
+    },
+    {
+      "kuerzel": "HE",
+      "land": "Hessen",
+      "grunderwerbsteuer_prozent": 6.0,
+      "grunderwerbsteuer_gueltig_seit": "1. August 2014",
+      "beispiel_400000_eur": 24000,
+      "foerderinstitut": "WIBank (Wirtschafts- und Infrastrukturbank Hessen)",
+      "foerderinstitut_url": "https://www.wibank.de",
+      "antragsweg": "Das Hessengeld wird ausschließlich digital über das WIBank-Kundenportal beantragt (zweistufig: Fördercheck, dann Hauptantrag; Einzug binnen 3 Jahren nachweisen). Die Hessen-Darlehen laufen über die Wohnungsbauförderstelle der Stadt- oder Kreisverwaltung oder das WIBank-Portal — kein Hausbankprinzip.",
+      "kombination_bundesfoerderung": "Hessengeld plus KfW 308 plus Hessen-Darlehen Bestandserwerb ist die stärkste Kombination für Familien, die ein älteres Haus kaufen — Zuschuss, 0,01-%-Kredit und 0,6-%-Kredit stapeln sich, solange nicht dieselben Kosten doppelt gefördert werden.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Hessengeld",
+          "zielgruppe": "Ersterwerber selbstgenutzten Wohneigentums (weltweit erster Immobilienbesitz), Kaufvertrag ab 01.03.2024; keine Einkommensgrenzen",
+          "konditionen": "Zuschuss zur Grunderwerbsteuer: 10.000 € je erwerbender Person (max. 20.000 €) plus 5.000 € je Kind unter 18; gedeckelt auf die tatsächlich gezahlte Steuer; Auszahlung in 10 Jahresraten; befristet bis 31.12.2029",
+          "konditionsstand": "08/2025"
+        },
+        {
+          "name": "Hessen-Darlehen Bestandserwerb",
+          "zielgruppe": "Erstmaliger Kauf einer Gebrauchtimmobilie zur Selbstnutzung; Einkommensgrenzen (z. B. ~27.561 €/Jahr für 1 Person, ~46.353 € für 2, +9.397 € je weitere Person, +833 € je Kind)",
+          "konditionen": "Darlehen bis 50 % der Gesamtkosten, 30.000–200.000 €; Festzins 0,6 % für 20 Jahre, Tilgung 3 % p. a.",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "Hessen-Darlehen Neubau",
+          "zielgruppe": "Wie Bestandserwerb, für Neubau/Ersterwerb",
+          "konditionen": "Darlehen 160.000–200.000 € je nach örtlichem Bodenpreisniveau, +20.000 € bei Effizienzhaus-40-Standard; Festzins 0,6 % für 20 Jahre",
+          "konditionsstand": "08/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Hessisches Ministerium der Finanzen — Hessengeld",
+          "url": "https://finanzen.hessen.de/initiativen/hessengeld"
+        },
+        {
+          "titel": "Förderdatenbank — Hessen-Darlehen Bestandserwerb",
+          "url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Hessen/hessen-darlehen-bestandserwerb.html"
+        },
+        {
+          "titel": "WIBank — Hessen-Darlehen Neubau",
+          "url": "https://www.wibank.de/wibank/hessen-darlehen-neubau"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/hessen"
+    },
+    {
+      "kuerzel": "MV",
+      "land": "Mecklenburg-Vorpommern",
+      "grunderwerbsteuer_prozent": 6.0,
+      "grunderwerbsteuer_gueltig_seit": "1. Juli 2019 (vorher 5,0 % seit 2012)",
+      "beispiel_400000_eur": 24000,
+      "foerderinstitut": "Landesförderinstitut Mecklenburg-Vorpommern (LFI M-V)",
+      "foerderinstitut_url": "https://www.lfi-mv.de",
+      "antragsweg": "Anträge laufen direkt beim LFI M-V, formgebunden und vor Vorhabensbeginn — kein Hausbankprinzip. Auf Landeszuwendungen besteht kein Rechtsanspruch; entscheidend sind die verfügbaren Haushaltsmittel.",
+      "kombination_bundesfoerderung": "Der praktisch wichtigste Weg in M-V: Bestandshaus kaufen (KfW 308 bis 180.000 € zu 0,01 %, wenn Energieklasse F/G/H), sanieren, und für spätere Modernisierungen das zinslose Landesdarlehen mit 25 % Teilerlass einplanen.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Modernisierungsdarlehen (ModRL M-V)",
+          "zielgruppe": "Eigentümer selbstgenutzten Wohnraums, Einkommensgrenzen nach Landesverordnung",
+          "konditionen": "Zinsloses Darlehen bis 80 % der Kosten, max. ~146.300 € je Wohnung; Tilgung 3 %; Teilerlass von 25 % des ausgezahlten Betrags nach Fertigstellung; Richtlinie befristet bis 31.12.2026. Achtung: Annahmestopp für energetische Vorhaben ab Effizienzhaus-85-Standard (seit 18.12.2023)",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "Zuschuss barrierearmes Wohnen (Aufzüge, Lifte)",
+          "zielgruppe": "Eigentümer selbstgenutzten Wohnraums, auch Mieter mit Zustimmung",
+          "konditionen": "Zuschuss 30 % der Kosten, max. 4.500 € je Wohneinheit",
+          "konditionsstand": "08/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Steuerportal M-V — Grunderwerbsteuer",
+          "url": "https://www.steuerportal-mv.de/Steuerrecht/Rund-ums-Grundst%C3%BCck/Grunderwerbsteuer/"
+        },
+        {
+          "titel": "LFI M-V — Förderfinder",
+          "url": "https://www.lfi-mv.de/foerderfinder/"
+        },
+        {
+          "titel": "Förderdatenbank — Modernisierungsrichtlinie M-V",
+          "url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Mecklenburg-Vorpommern/modernisierung-und-instandsetzung-von-miet-und-ge.html"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/mecklenburg-vorpommern"
+    },
+    {
+      "kuerzel": "NI",
+      "land": "Niedersachsen",
+      "grunderwerbsteuer_prozent": 5.0,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2014",
+      "beispiel_400000_eur": 20000,
+      "foerderinstitut": "NBank (Investitions- und Förderbank Niedersachsen)",
+      "foerderinstitut_url": "https://www.nbank.de",
+      "antragsweg": "Der Antrag läuft über die örtliche Wohnraumförderstelle (Landkreis, Stadt oder Gemeinde), die Abwicklung übernimmt die NBank. Die Einkommensermittlung lässt sich vorab online bei der NBank prüfen.",
+      "kombination_bundesfoerderung": "Eigentums- und Modernisierungsförderung sind für unterschiedliche Kosten kumulierbar. Zwanzig zinsfreie Jahre auf bis zu 180.000 € sind bei 4 % Marktzins grob 100.000 € Zinsersparnis — die 5,0 % Grunderwerbsteuer (20.000 € bei 400.000 € Kaufpreis) ist dagegen fast eine Fußnote.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Eigentumsförderung (selbst genutztes Wohneigentum)",
+          "zielgruppe": "Drei Einkommensgruppen nach § 3 NWoFG: A = Grundgrenze, B = A +40 %, C = A +60 % (Gruppe C nur in bestimmten Gebieten)",
+          "konditionen": "Zinsloses Darlehen: Gruppe A bis 180.000 €, Gruppen B/C bis 140.000 €; je Kind +10.000 € (A) bzw. +7.500 € (B/C) Darlehen plus 10.000 € Zuschuss je Kind; 0 % Zins in den Jahren 1–20, Tilgung 2 %, Verwaltungskosten 0,5 % p. a.; Eigenleistung mind. 10 % (7,5 % ab zwei Kindern)",
+          "konditionsstand": "07/2026"
+        },
+        {
+          "name": "Modernisierung selbstgenutzten Wohneigentums",
+          "zielgruppe": "Selbstnutzer, gleiche Einkommensgruppen",
+          "konditionen": "Klimagerecht: Darlehen bis 60 % der Kosten, max. 60.000 €, zinslos Jahre 1–20, Zuschüsse 10–30 % je nach Effizienzsprung; Barrierereduzierung: bis 70.000 €, zinslos Jahre 1–15",
+          "konditionsstand": "07/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Landesamt für Steuern Niedersachsen — FAQ",
+          "url": "https://lstn.niedersachsen.de/steuer/haeufige_fragen_faq/"
+        },
+        {
+          "titel": "NBank — Eigentumsförderung",
+          "url": "https://www.nbank.de/F%C3%B6rderprogramme/Aktuelle-F%C3%B6rderprogramme/Eigentumsf%C3%B6rderung-(Selbst-genutztes-Wohneigentum).html"
+        },
+        {
+          "titel": "Nds. Wirtschaftsministerium — Eigentumsförderung",
+          "url": "https://www.mw.niedersachsen.de/startseite/bauen_wohnen/wohnraumforderung/eigentumsforderung/"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/niedersachsen"
+    },
+    {
+      "kuerzel": "NW",
+      "land": "Nordrhein-Westfalen",
+      "grunderwerbsteuer_prozent": 6.5,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2015",
+      "beispiel_400000_eur": 26000,
+      "foerderinstitut": "NRW.BANK",
+      "foerderinstitut_url": "https://www.nrwbank.de",
+      "antragsweg": "Zwei getrennte Wege: Die öffentliche Eigentumsförderung beantragst du bei der Stadt- oder Kreisverwaltung (Bewilligungsbehörde). NRW.BANK.Wohneigentum läuft dagegen klassisch über die Hausbank — Antrag vor Vorhabensbeginn.",
+      "kombination_bundesfoerderung": "Der Tilgungsnachlass macht die öffentliche Förderung besonders stark: Wer in Gruppe A 184.000 € Grunddarlehen plus 30.000 € EH40-Zusatzdarlehen zieht, bekommt 18.400 € + 15.000 € erlassen — zusätzlich zum 0,5-%-Zins über 30 Jahre.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Eigentumsförderung NRW — Neubau oder Kauf (öffentliche Wohnraumförderung)",
+          "zielgruppe": "Haushalte mit kleinen und mittleren Einkommen, zwei Gruppen A und B nach WFNG NRW; schnelle Vorprüfung über den „Chancenprüfer“ der NRW.BANK",
+          "konditionen": "Grunddarlehen Gruppe A: 100.000–184.000 €, Gruppe B: 59.000–110.000 € (je nach Kostenkategorie); Familienbonus 24.000 € je Kind bzw. Person mit Schwerbehinderung (Gruppe A); Zusatzdarlehen u. a. 30.000 € für Effizienzhaus 40, 17.000 € Bauen mit Holz; Zins 0,5 % p. a. (Gruppe A: 30 Jahre fest); Tilgungsnachlass Gruppe A: 10 % des Grunddarlehens, 50 % der Zusatzdarlehen",
+          "konditionsstand": "04/2026"
+        },
+        {
+          "name": "NRW.BANK.Wohneigentum",
+          "zielgruppe": "Selbstnutzer; zu versteuerndes Einkommen max. 75.000 € (allein) bzw. 100.000 € (Mehrpersonenhaushalt), +20.000 € je Kind unter 18",
+          "konditionen": "Zinsverbilligtes Darlehen bis 50 % der Kosten (Anschlussfinanzierung: bis 100 % der Restschuld); Sollzins ab ~3,84 % (10 J.) bis ~4,01 % (35 J.), Laufzeiten mit Tilgungsfreijahr",
+          "konditionsstand": "10.08.2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Finanzverwaltung NRW — Grunderwerbsteuer",
+          "url": "https://www.finanzamt.nrw.de/steuerinfos/privatpersonen/haus-und-grund/grunderwerbsteuer-wissenswertes-beim-grundstuecks-oder"
+        },
+        {
+          "titel": "NRW.BANK — Eigentumsförderung Neubau oder Kauf",
+          "url": "https://www.nrwbank.de/de/foerderung/foerderprodukte/15337/eigentumsfoerderung---neubau-oder-kauf.html"
+        },
+        {
+          "titel": "NRW.BANK — Wohneigentum",
+          "url": "https://www.nrwbank.de/de/foerderung/foerderprodukte/15937/nrwbank-wohneigentum.html"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/nordrhein-westfalen"
+    },
+    {
+      "kuerzel": "RP",
+      "land": "Rheinland-Pfalz",
+      "grunderwerbsteuer_prozent": 5.0,
+      "grunderwerbsteuer_gueltig_seit": "1. März 2012",
+      "beispiel_400000_eur": 20000,
+      "foerderinstitut": "ISB (Investitions- und Strukturbank Rheinland-Pfalz)",
+      "foerderinstitut_url": "https://isb.rlp.de",
+      "antragsweg": "Antrag bei der zuständigen Stadt- oder Kreisverwaltung (Förderbestätigung), die an die ISB weiterleitet — nicht über die Hausbank. Wichtig: kein Baubeginn vor der Förderzusage, und der Kaufvertrag darf höchstens zwei Monate alt sein.",
+      "kombination_bundesfoerderung": "Die Zwei-Monats-Frist nach Kaufvertrag ist die schärfste Deadline unter allen Landesprogrammen — wer sie reißt, verliert den Anspruch. Erst Förderbestätigung sichern, dann unterschreiben, ist der sichere Weg.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "ISB-Darlehen Wohneigentum (Programme 501/502/503)",
+          "zielgruppe": "Haushalte bis 60 % über der Einkommensgrenze nach § 13 LWoFG (Grundgrenzen z. B. ~22.000 € für 1 Person, ~31.570 € für 2 Erwachsene, ~40.370 € mit einem Kind)",
+          "konditionen": "Grunddarlehen 30 % der Gesamtkosten plus Zusatzdarlehen von je 5 % (u. a. für Kinder, mehrfach möglich); Höchstbeträge 150.000–190.000 € je nach Fördermietenstufe, +10 % ab dem dritten Kind; Zins 3,45 % (20 J.) / 3,55 % (30 J.); Tilgungszuschuss 7,5 % (Einkommen bis 10 % über Grenze) bzw. 5 %, +2,5 % bei Effizienzhaus 55; Eigenkapital mind. 10 %",
+          "konditionsstand": "01/2026"
+        },
+        {
+          "name": "ISB-Darlehen Modernisierung",
+          "zielgruppe": "Selbstnutzer, gleiche Einkommenslogik",
+          "konditionen": "Bis 100.000 € (Haushalte bis 4 Personen), +5.000 € je weitere Person; Tilgungszuschuss 15–25 % je nach Effizienzstandard und Einkommen; 20 Jahre Zinsbindung",
+          "konditionsstand": "01/2026"
+        },
+        {
+          "name": "ISB-Darlehen Wohneigentum Universell (710)",
+          "zielgruppe": "Ohne die Einkommensgrenzen der Programme 501–503",
+          "konditionen": "20 Jahre Zinsbindung, zuletzt ~4,10 % bei 2,0 % Tilgung (Stand 02/2025 — aktuelle Konditionen bei der ISB prüfen)",
+          "konditionsstand": "02/2025"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Ministerium der Finanzen RLP — Fragen und Antworten",
+          "url": "https://fm.rlp.de/themen/steuerrecht/fragen-und-antworten"
+        },
+        {
+          "titel": "ISB — Förderung 503",
+          "url": "https://isb.rlp.de/foerderung/503.html"
+        },
+        {
+          "titel": "ISB — Konditionentableau selbstgenutzter Wohnraum (PDF)",
+          "url": "https://isb.rlp.de/fileadmin/user_upload/Foerderprogramme/Tableau_WoFoe_Klima/Tableau_selbstgenutzter_Wohnraum.pdf"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/rheinland-pfalz"
+    },
+    {
+      "kuerzel": "SL",
+      "land": "Saarland",
+      "grunderwerbsteuer_prozent": 6.5,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2015",
+      "beispiel_400000_eur": 26000,
+      "foerderinstitut": "SIKB (Saarländische Investitionskreditbank)",
+      "foerderinstitut_url": "https://www.sikb.de",
+      "antragsweg": "Antrag zwingend vor Vorhabensbeginn direkt bei der SIKB (eigene Vordrucke) — die SIKB tritt als Teilfinanzierer neben deine Hausbank. Zusätzlich leitet sie KfW-Programme durch (u. a. KfW 124, 300 und 308).",
+      "kombination_bundesfoerderung": "1,0 % fest über die gesamte Laufzeit ist eine Seltenheit — die meisten Landesprogramme verbilligen nur 15 bis 20 Jahre. Dazu sind bei vier Kindern 20 % des Darlehens erlassen. Für förderberechtigte Familien gehört das Saarland damit trotz 6,5 % Grunderwerbsteuer zu den attraktivsten Förderkulissen.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Saarländische Wohnraumförderung — Eigentum (Neubau/Ersterwerb)",
+          "zielgruppe": "Vor allem Familien mit Kindern und Menschen mit Behinderung; Einkommensgrenzen ~32.100 € (1 Person) / ~48.200 € (2 Personen), +7.900 € je weitere Person, +1.400 € je Kind",
+          "konditionen": "Darlehen bis 2.000 €/m² förderfähiger Wohnfläche (Neubau/Ersterwerb) bzw. 1.800 €/m² (Umbau); Zins 1,0 % p. a. fest für die gesamte Laufzeit (max. 30 Jahre, 3 tilgungsfreie Anlaufjahre); Tilgungszuschuss 5 % je Kind (max. 20 %), +15 % bei Effizienzhaus 55; Eigenleistung 15 % (10 % ab drei Kindern)",
+          "konditionsstand": "06/2026"
+        },
+        {
+          "name": "Wohnraumförderung — Modernisierung",
+          "zielgruppe": "Gleiche Zielgruppe und Einkommensgrenzen",
+          "konditionen": "Darlehen bis 200.000 € je Wohneinheit, ebenfalls 1,0 % fest, bis 15 % Tilgungszuschuss bei energetischem Standard",
+          "konditionsstand": "06/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Serviceportal Saarland — Grunderwerbsteuer",
+          "url": "https://service.saarland.de/detail?pstCatId=100048520&pstId=100072811"
+        },
+        {
+          "titel": "SIKB — Wohnraumförderung",
+          "url": "https://www.sikb.de/kredit_saarlaendische_wohnraumfoerderung"
+        },
+        {
+          "titel": "SIKB — Merkblatt Eigentumsförderung 06/2026 (PDF)",
+          "url": "https://www.sikb.de/sites/default/files/SIKB/Merkbl%C3%A4tter/Eigentumsfoerderung_2026_06.pdf"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/saarland"
+    },
+    {
+      "kuerzel": "SN",
+      "land": "Sachsen",
+      "grunderwerbsteuer_prozent": 5.5,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2023 (vorher 3,5 % — die jüngste große Erhöhung)",
+      "beispiel_400000_eur": 22000,
+      "foerderinstitut": "Sächsische Aufbaubank (SAB)",
+      "foerderinstitut_url": "https://www.sab.sachsen.de",
+      "antragsweg": "Antrag direkt bei der SAB über das Online-Förderportal — nicht über die Hausbank. Laut Richtlinie soll KfW-Förderung in der Regel Teil der Gesamtfinanzierung sein.",
+      "kombination_bundesfoerderung": "Der Zinssatz ist gestaffelt: Wer wenig verdient, mehrere Kinder hat und ein sanierungsbedürftiges Bestandshaus kauft, landet nahe 0,1 % — die Kombination mit KfW 308 ist dabei ausdrücklich gewollt.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Sächsisches Förderdarlehen Familienwohnen",
+          "zielgruppe": "Familien mit mind. einem Kind unter 18; Einkommensgrenzen 60.000 € (Alleinerziehende) bzw. 100.000 € (Paare), +10.000 € je Kind (Stand 01/2026)",
+          "konditionen": "Darlehen bis 80.000 € je Haushalt (+10.000 € bei Haushaltsmitglied mit Mobilitätseinschränkung); Zins 0,1–3,15 % p. a. je nach Einkommen, Kinderzahl und Energieeffizienz — mit Extra-Boni für einkommensschwache Haushalte und „Jung kauft Alt“-Bestandserwerb; 25 Jahre Zinsbindung, 2 tilgungsfreie Anlaufjahre; Eigenkapital mind. 10 %; Neustart des Programms am 10.10.2025",
+          "konditionsstand": "01/2026"
+        },
+        {
+          "name": "Wohneigentum ländlicher Raum",
+          "zielgruppe": "—",
+          "konditionen": "Ausgelaufen — keine Antragstellung mehr möglich (war: 10.000–80.000 € zu 0,95 % im ländlichen Raum außerhalb von Chemnitz, Dresden und Leipzig)",
+          "konditionsstand": "ausgelaufen"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "Medienservice Sachsen — Steuerliche Neuregelungen",
+          "url": "https://www.medienservice.sachsen.de/medien/news/1060053"
+        },
+        {
+          "titel": "SAB — Familienwohnen",
+          "url": "https://www.sab.sachsen.de/familienwohnen"
+        },
+        {
+          "titel": "Förderdatenbank — Richtlinie Familienwohnen",
+          "url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen/richtlinie-familienwohnen.html"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/sachsen"
+    },
+    {
+      "kuerzel": "ST",
+      "land": "Sachsen-Anhalt",
+      "grunderwerbsteuer_prozent": 5.0,
+      "grunderwerbsteuer_gueltig_seit": "1. März 2012",
+      "beispiel_400000_eur": 20000,
+      "foerderinstitut": "Investitionsbank Sachsen-Anhalt (IB)",
+      "foerderinstitut_url": "https://www.ib-sachsen-anhalt.de",
+      "antragsweg": "Antrag direkt bei der IB — vor Vorhabensbeginn bzw. unmittelbar nach dem notariellen Kaufvertrag. Das Förderberatungszentrum in Magdeburg berät kostenfrei (Hotline 0800 56 007 57).",
+      "kombination_bundesfoerderung": "Eine Familie mit drei Kindern kommt auf bis zu 175.000 € zu 0,9 % — zusammen mit dem moderaten Steuersatz von 5,0 % gehört Sachsen-Anhalt zu den günstigsten Kaufkulissen im Osten.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "IB-Förderdarlehen (Wohneigentumsrichtlinien)",
+          "zielgruppe": "Haushalte mit mind. 2 Personen; Einkommensgrenzen nach Landesverordnung (Online-Einkommensrechner der IB)",
+          "konditionen": "Baudarlehen bis 100.000 € Grundbetrag +25.000 € je Kind (max. +75.000 €); Zins 0,9 % (10 J.) bzw. 1,7 % (20 J.); Anfangstilgung 2,92 % bzw. 2,58 %; vorzeitige Tilgung während der Zinsbindung ausgeschlossen",
+          "konditionsstand": "01/2026"
+        },
+        {
+          "name": "IB-Wohneigentumsprogramm",
+          "zielgruppe": "Selbstnutzer ohne feste Einkommensgrenzen, tragfähiges Einkommen vorausgesetzt",
+          "konditionen": "Darlehen 20.000–100.000 €, 10 Jahre Zinsbindung (Zins tagesaktuell), Laufzeit bis 30 Jahre; Eigenkapital mind. 10 % (davon 5 % bar)",
+          "konditionsstand": "08/2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "IB Sachsen-Anhalt — Merkblatt IB-Förderdarlehen (PDF)",
+          "url": "https://www.ib-sachsen-anhalt.de/fileadmin/user_upload/Dokumente/Wohnungsbau/IB-Foerderdarlehen_2025_Merkblatt.pdf"
+        },
+        {
+          "titel": "Förderdatenbank — IB-Wohneigentumsprogramm",
+          "url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen-Anhalt/ib-wohneigentumsprogramm.html"
+        },
+        {
+          "titel": "IB Sachsen-Anhalt — Bauen und Kaufen",
+          "url": "https://www.ib-sachsen-anhalt.de/privatpersonen/bauen-kaufen"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/sachsen-anhalt"
+    },
+    {
+      "kuerzel": "SH",
+      "land": "Schleswig-Holstein",
+      "grunderwerbsteuer_prozent": 6.5,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2014",
+      "beispiel_400000_eur": 26000,
+      "foerderinstitut": "Investitionsbank Schleswig-Holstein (IB.SH)",
+      "foerderinstitut_url": "https://www.ib-sh.de",
+      "antragsweg": "Beide Programme laufen direkt über die IB.SH — per Online-Tool „IB.SH Finanz@ss“ oder über die Finanzierungsberatung (0431 9905-4500). Kein Hausbankprinzip.",
+      "kombination_bundesfoerderung": "Für Familien in den Einkommensgrenzen ist das 0,00-%-Darlehen der stärkste Hebel gegen den hohen Steuersatz: 100.000 € zinsfrei über 20 Jahre sparen bei 4 % Vergleichszins mehr, als die Grunderwerbsteuer auf ein typisches Einfamilienhaus kostet.",
+      "warnung": null,
+      "programme": [
+        {
+          "name": "Soziale Wohnraumförderung für Eigentumsmaßnahmen",
+          "zielgruppe": "Haushalte mit mind. einem Kind und/oder schwerbehindertem Angehörigen innerhalb der Einkommensgrenzen der sozialen Wohnraumförderung",
+          "konditionen": "Zinsloses Darlehen (0,00 % Sollzins): Grundförderung bis 100.000 €, Zusatzdarlehen bis 50.000 € (bauliche Maßnahmen für Schwerbehinderte) und bis 15.000 € (Zukunftsfähigkeit der Immobilie); 20 Jahre Zinsbindung, Verwaltungskostenbeitrag 0,5 % p. a.",
+          "konditionsstand": "08/2026"
+        },
+        {
+          "name": "IB.SH Immo Eigentum",
+          "zielgruppe": "Selbstnutzer in SH ohne Einkommensgrenzen (keine Ferien- oder Zweitwohnungen)",
+          "konditionen": "Darlehen 15.000–200.000 €; Sollzins ~4,20 % bei 10 Jahren (eff. ~4,33 %) bzw. ~4,51 % bei 15 Jahren (eff. ~4,65 %); Eigenkapital mind. 7,5 %",
+          "konditionsstand": "14.07.2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "IB.SH — Soziale Wohnraumförderung für Eigentumsmaßnahmen",
+          "url": "https://www.ib-sh.de/produkt/soziale-wohnraumfoerderung-fuer-eigentumsmassnahmen/"
+        },
+        {
+          "titel": "IB.SH — Immo Eigentum",
+          "url": "https://www.ib-sh.de/produkt/ibsh-immo-eigentum/"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/schleswig-holstein"
+    },
+    {
+      "kuerzel": "TH",
+      "land": "Thüringen",
+      "grunderwerbsteuer_prozent": 5.0,
+      "grunderwerbsteuer_gueltig_seit": "1. Januar 2024 — gesenkt von 6,5 %, die einzige Senkung bundesweit",
+      "beispiel_400000_eur": 20000,
+      "foerderinstitut": "Thüringer Aufbaubank (TAB)",
+      "foerderinstitut_url": "https://www.aufbaubank.de",
+      "antragsweg": "Der RLFamWoE-Zuschuss wird direkt im TAB-Förderportal beantragt — nicht beim Finanzamt, obwohl er wirtschaftlich wie eine Steuererstattung wirkt. EigenheimPlus läuft dagegen über die Hausbank, Antrag vor Vorhabensbeginn.",
+      "kombination_bundesfoerderung": "Steuersenkung plus Zuschuss ergibt für Familien den doppelten Effekt: 5,0 % statt 6,5 % Steuer und bis zu 20.000 € zurück — wirtschaftlich zahlen Thüringer Familien beim Ersterwerb bis 400.000 € damit netto null Grunderwerbsteuer, sofern der Topf gefüllt ist. Kombination mit anderen öffentlichen Mitteln ist laut TAB möglich.",
+      "warnung": "Die für 2026 vorgesehenen RLFamWoE-Mittel sind vollständig vergeben — neue Anträge werden erst bei zusätzlichem Budget bearbeitet (Stand August 2026). Vor einer Kaufentscheidung, die auf den Zuschuss baut, den aktuellen Stand im TAB-Förderportal prüfen.",
+      "programme": [
+        {
+          "name": "Wohneigentum für Familien (RLFamWoE)",
+          "zielgruppe": "Familien mit mind. einem kindergeldberechtigten Kind unter 18 beim Ersterwerb selbstgenutzten Wohneigentums (Erwerb ab 02.01.2024; Grunderwerbsteuer muss gezahlt sein)",
+          "konditionen": "Einmaliger, nicht rückzahlbarer Zuschuss von 5 % des Kaufpreises, max. 20.000 € (Bemessungsgrundlage bis 400.000 €; Baugrundstücke bis 100.000 €), Mindestzuschuss 1.000 €",
+          "konditionsstand": "siehe Warnung"
+        },
+        {
+          "name": "EigenheimPlus (TAB)",
+          "zielgruppe": "Selbstnutzer in Thüringen, keine Einkommensgrenzen genannt",
+          "konditionen": "Darlehen 5.000–150.000 €, bis 100 % der Kosten finanzierbar; Zinsbindungen 5, 10, 20 oder 30 Jahre; Konditionen individuell über das durchleitende Institut",
+          "konditionsstand": "27.07.2026"
+        }
+      ],
+      "quellen": [
+        {
+          "titel": "TAB — Wohneigentum für Familien",
+          "url": "https://www.aufbaubank.de/Foerderprogramme/Wohneigentum-fuer-Familien"
+        },
+        {
+          "titel": "TAB — EigenheimPlus",
+          "url": "https://www.aufbaubank.de/foerderprogramme/eigenheimplus"
+        },
+        {
+          "titel": "Thüringer Finanzministerium — Medieninfo RLFamWoE",
+          "url": "https://finanzen.thueringen.de/aktuelles/medieninfo"
+        }
+      ],
+      "seite": "https://hypolotse.de/foerderung/thueringen"
+    }
+  ]
+}
