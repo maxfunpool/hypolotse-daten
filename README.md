@@ -1,5 +1,7 @@
 # Hypolotse Daten: Baufinanzierung in Deutschland
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23482867.svg)](https://doi.org/10.5281/zenodo.23482867)
+
 Offene Datensätze zur Immobilienfinanzierung in Deutschland, gepflegt von [Hypolotse](https://hypolotse.de).
 Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). Nutzung frei, auch kommerziell, mit Quellenangabe „Hypolotse“ und Link.
 
@@ -35,5 +37,8 @@ Korrekturen gern an hello@hypolotse.de.
 Der Grunderwerbsteuer- und Kaufnebenkosten-Rechner lässt sich kostenlos in jede Website einbetten: [hypolotse.de/einbetten](https://hypolotse.de/einbetten)
 
 ## Zitieren
+
+Datensatz: Hasenohr, M. (2026). Hypolotse Daten: Baufinanzierung in Deutschland. Zenodo. https://doi.org/10.5281/zenodo.23482867
+
 
 > Hypolotse Baufinanzierungs-Monitor, https://hypolotse.de/baufinanzierungs-monitor, auf Basis der MFI-Zinsstatistik der Deutschen Bundesbank.
