@@ -1,0 +1,10 @@
+{
+  "title": "Hypolotse Daten: Baufinanzierung in Deutschland (Bauzinsen, Grunderwerbsteuer, Landesförderung, kommunales Baukindergeld)",
+  "description": "<p>Offene Datensätze zur Immobilienfinanzierung in Deutschland, gepflegt von <a href=\"https://hypolotse.de\">Hypolotse</a>.</p><ul><li><b>baufinanzierungs-monitor.csv</b>: Neugeschäft und Effektivzinsen für Wohnungsbaukredite an private Haushalte nach Zinsbindung, monatlich, aufbereitet aus der MFI-Zinsstatistik der Deutschen Bundesbank.</li><li><b>foerderung.json</b>: Grunderwerbsteuersätze der 16 Bundesländer und Wohneigentumsförderung der Landesförderinstitute.</li><li><b>baukindergeld-gemeinden.csv/.json</b>: Kommunale Familienförderung beim Hauskauf (Baukindergeld, Bauplatz-Nachlass, Jung kauft Alt) von 124 Gemeinden mit amtlicher Quelle, Lesedatum und Zitat.</li></ul><p>Live-Fassung: https://hypolotse.de/baufinanzierungs-monitor und https://hypolotse.de/foerderung/baukindergeld/</p>",
+  "upload_type": "dataset",
+  "license": "cc-by-4.0",
+  "language": "deu",
+  "creators": [{"name": "Hasenohr, Max", "affiliation": "Hypolotse"}],
+  "keywords": ["Baufinanzierung", "Bauzinsen", "Grunderwerbsteuer", "Wohneigentumsförderung", "Baukindergeld", "Bundesbank", "Germany", "mortgage rates", "open data"],
+  "related_identifiers": [{"identifier": "https://hypolotse.de", "relation": "isSupplementTo", "scheme": "url"}]
+}
